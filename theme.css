@@ -77,6 +77,13 @@
     
     hr.solid {
   		border: 0.25px solid #a0a0a0;}
+
+<style>
+	    table {
+  width: 100%;
+  border-collapse: collapse;;
+}
+	</style>
     
     footer {
   		text-align:center;
