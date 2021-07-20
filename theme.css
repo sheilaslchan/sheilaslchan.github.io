@@ -95,6 +95,23 @@
     hr.solid {
   		border: 0.25px solid #a0a0a0;}
 
+a:link {
+  color: #364043;
+}
+
+a:visited {
+  color: #364043;
+}
+
+
+a:hover {
+  color: #a0a0a0;
+}
+
+a:active {
+  color: #a0a0a0;
+} 
+
   .rectangle {
   height: 1px;
   width: 300px;
