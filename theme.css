@@ -1,5 +1,5 @@
 	body {
-  		margin: auto;
+  		margin: 20px;
         background-color: white;
         font-family: EB Garamond, Raleway;}
 
@@ -45,9 +45,7 @@
         text-align: justify;
         font-size: 15px;
         font-family: Raleway;
-        line-height: 1.5;
-	margin-left:10px;
-	margin-right:10px;}
+        line-height: 1.5;}
 
 	.nav {
         position: relative;
