@@ -91,27 +91,19 @@
 	margin-left: auto;
     margin-right: auto;}
 
-    .column {
-  float: left;
-  padding: 10px;}
+ @media only screen and (max-width: 600px) {
+    thead th:not(:first-child) {
+        display: none;
+    }
 
-.column.left {
-  width: 50%;
-  text-align: center;}
+    td, th {
+        display: block;
+    }
 
-.column.right {
-  width: 50%;
-  text-align: center;}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;}
-
-@media (max-width: 600px) {
-  .column.left, .column.right {
-    width: 100%;
-  }
+    td[data-th]:before  {
+        content: attr(data-th);
+    }
+}
     
     footer {
   		text-align:center;
