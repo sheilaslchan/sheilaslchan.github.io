@@ -34,9 +34,7 @@
         padding-top: 5px;
         padding-bottom: 0px;
         font-family: EB Garamond;
-        font-weight: bold;
-	margin-left:30px;
-	margin-right:30px;}
+        font-weight: bold;}
     
     h4 {
     	color: #233252;
@@ -45,18 +43,14 @@
         padding-top: 0px;
         padding-bottom: 0px;
         font-family: EB Garamond;
-        font-weight: normal;
-	margin-left:30px;
-	margin-right:30px;}
+        font-weight: normal;}
         
     p {
     	color: #364043;
         text-align: justify;
         font-size: 15px;
         font-family: Raleway;
-        line-height: 1.5;
-	margin-left:30px;
-	margin-right:30px;}
+        line-height: 1.5;}
 
 	.nav {
         position: relative;
@@ -123,12 +117,12 @@
 
 
 .column.side {
-  width: 12.5%;
+  width: 10%;
 }
 
 
 .column.middle {
-  width: 75%;
+  width: 80%;
 }
 
 
