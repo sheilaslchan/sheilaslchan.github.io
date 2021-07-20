@@ -92,9 +92,25 @@
 	margin-left: auto;
     margin-right: auto;}
 
-    table {
- 	width: 100%;
- 	border-collapse: collapse;}
+    .column {
+  float: left;
+  padding: 10px;}
+
+.column.left {
+  width: 50%;}
+
+.column.right {
+  width: 50%;}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;}
+
+@media (max-width: 600px) {
+  .column.left, .column.right {
+    width: 100%;
+  }
     
     footer {
   		text-align:center;
