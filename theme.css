@@ -68,13 +68,19 @@
         padding: 10px;
         float:left;
         text-decoration: none;}
-    .nav ul li a:hover:not(.active) {
+.nav ul li a:link {
+		color: #233252;
+	text-decoration: none;}
+    .nav ul li a:visited {
+		color: #233252;
+	text-decoration: none;}
+.nav ul li a:hover {
   		color: #364043;
         text-decoration: none;}
-	.nav .active {
-		color: #b4cce8 ;
+.nav ul li a:active {
+		color: #364043;
         text-decoration: none;}
-    
+
     hr.solid {
   		border: 0.25px solid #a0a0a0;}
 
