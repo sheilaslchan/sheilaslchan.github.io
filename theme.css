@@ -97,10 +97,12 @@
   padding: 10px;}
 
 .column.left {
-  width: 50%;}
+  width: 50%;
+  text-align: center;}
 
 .column.right {
-  width: 50%;}
+  width: 50%;
+  text-align: center;}
 
 .row:after {
   content: "";
