@@ -112,17 +112,17 @@
 
 .column {
   float: left;
-  padding: 10px;
+  padding: 5px;
 }
 
 
 .column.side {
-  width: 10%;
+  width: 5%;
 }
 
 
 .column.middle {
-  width: 80%;
+  width: 90%;
 }
 
 
