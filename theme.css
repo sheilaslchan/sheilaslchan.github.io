@@ -61,26 +61,18 @@
         margin: 0;
     	padding: 0;
         overflow: hidden;
-    	display: inline-block;
-        text-decoration: none;}
+    	display: inline-block;}
     .nav ul li {
         margin: auto;
         padding: 10px;
-        float:left;
+        float:left;}
+    .nav ul li a:hover:not(.active) {
+  		color: #364043;
         text-decoration: none;}
-.nav ul li a:link {
-		color: #233252;
-	text-decoration: none;}
-    .nav ul li a:visited {
-		color: #233252;
-	text-decoration: none;}
-.nav ul li a:hover {
-  		color: #a0a0a0;
+	.nav .active {
+		color: #b4cce8 ;
         text-decoration: none;}
-.nav ul li a:active {
-		color: #a0a0a0;
-        text-decoration: none;}
-
+    
     hr.solid {
   		border: 0.25px solid #a0a0a0;}
 
