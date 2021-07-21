@@ -36,7 +36,14 @@
   margin-top: 12px;
 }
 
-/* Clear floats after the columns */
+@media screen and (max-width: 600px) {
+  .column {
+      flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
 .row:after {
   content: "";
   display: table;
@@ -60,17 +67,16 @@
 		</ul>
 	</div>
 
-
-
+<div class"container_gallery"
 <div class="row"> 
   <div class="column">
   <img src="/images/IMG_9530.JPG" style="width:100%">
   <img src="/images/IMG_1409.JPG" style="width:100%">
-  <img src="/images/IMG_8053.JPG" style="width:100%">
   <img src="/images/IMG_6995.JPG" style="width:100%">
+  <img src="/images/IMG_8053.JPG" style="width:100%">
   </div>
   <div class="column">
-  <img src="/images/IMG_8053.JPG" style="width:100%">
+  <img src="/images/IMG_8521.JPG" style="width:100%">
   <img src="/images/IMG_6564.JPG" style="width:100%">
   <img src="/images/IMG_7185.JPG" style="width:100%">
   <img src="/images/IMG_2820.JPG" style="width:100%">
