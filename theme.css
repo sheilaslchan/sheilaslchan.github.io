@@ -9,6 +9,12 @@
  	 width: 90%;
  	 text-align: justify;}
 
+	.container_cover {
+ 	 margin: auto;
+ 	 max-width: 700px;
+ 	 width: 90%;
+ 	 text-align: center;}
+
 	.header {
 	  background-color: white;
 	  padding: 20px;
@@ -176,8 +182,9 @@ max-width: 700px;}
   		padding: 20px;}
 
 .centered {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  Align-item:center;
 }
