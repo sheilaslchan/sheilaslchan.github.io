@@ -3,6 +3,12 @@
         background-color: white;
         font-family: EB Garamond, Raleway;}
 
+	.container {
+ 	 margin: auto;
+ 	 max-width: 600px;
+ 	 width: 90%;
+ 	 text-align: justify;}
+
 	.header {
 	  background-color: white;
 	  padding: 20px;
@@ -121,44 +127,36 @@ a:active {
 
  @media only screen and (max-width: 600px) {
     thead th:not(:first-child) {
-        display: none;
-    }
+        display: none;}
 
     td, th {
-        display: block;
-    }
+        display: block;}
 
     td[data-th]:before  {
-        content: attr(data-th);
-    }
+        content: attr(data-th);}
 }
 
 .column {
   float: left;
-  padding: 5px;
-}
+  padding: 5px;}
 
 
 .column.side {
-  width: 10%;
-}
+  width: 10%;}
 
 
 .column.middle {
-  width: 80%;
-}
+  width: 80%;}
 
 
 .row:after {
   content: "";
   display: table;
-  clear: both;
-}
+  clear: both;}
 
 @media screen and (max-width: 600px) {
   .column.side, .column.middle {
-    width: 100%;
-  }
+    width: 100%;}}
     
     footer {
   		text-align:center;
