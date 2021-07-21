@@ -130,7 +130,7 @@ a:active {
   grid-template-columns: 50% 50%;
   grid-gap: 0px;
   padding: 10px;
-max-width: 600px;}
+max-width: 800px;}
 
 .grid-container > div {
   text-align: center;
