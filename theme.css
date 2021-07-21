@@ -9,11 +9,7 @@
  	 width: 90%;
  	 text-align: justify;}
 
-	.container_cover {
- 	 margin: auto;
-  	 width: 90%;
- 	 text-align: center;}
-
+	
 	.header {
 	  background-color: white;
 	  padding: 20px;
@@ -181,8 +177,17 @@ max-width: 700px;}
   		padding: 20px;}
 
 .centered {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/IMG_7489.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
