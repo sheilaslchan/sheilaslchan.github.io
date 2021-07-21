@@ -1,27 +1,22 @@
-	body {
-  		margin: auto;
+body {
+	margin: auto;
         background-color: white;
         font-family: EB Garamond, Raleway;}
 
-	.container {
- 	 margin: auto;
- 	 max-width: 600px;
- 	 width: 90%;
- 	 text-align: justify;}
+.container {
+	margin: auto;
+	max-width: 600px;
+	width: 90%;
+	text-align: justify;}
 
-.container_cover {
-  position: relative;
-  text-align: center;
-}	
+.header {
+	background-color: white;
+	padding: 20px;
+	text-align: center;}
 
-	.header {
-	  background-color: white;
-	  padding: 20px;
-	  text-align: center;}
-
-	h1 {
-		color: #233252;
-		text-align: center;
+h1 {
+	color: #233252;
+	text-align: center;
         font-size: 50px;
         padding-top: 20px;
         padding-bottom: 0px;
@@ -29,18 +24,18 @@
         font-family: EB Garamond;
         font-weight: 1000;}
     
-    h2 {
+h2 {
     	color: #a0a0a0;
-		text-align: center;
+	text-align: center;
         font-size: 15px;
         padding: 10px;
         font-variant: small-caps;
         font-family: Raleway;
         font-weight: normal;}
         
-    h3 {
+h3 {
     	color: #233252;
-		text-align: left;
+	text-align: left;
         font-size: 20px;
         padding-top: 5px;
         padding-bottom: 0px;
@@ -49,9 +44,9 @@
 	margin-left: 20px;
 	margin-right: 20px;}
     
-    h4 {
+h4 {
     	color: #233252;
-		text-align: left;
+	text-align: left;
         font-size: 17.5px;
         padding-top: 0px;
         padding-bottom: 0px;
@@ -60,7 +55,7 @@
 	margin-left: 20px;
 	margin-right: 20px;}
         
-    p {
+p {
     	color: #364043;
         text-align: justify;
         font-size: 15px;
@@ -69,7 +64,7 @@
 	margin-left: 20px;
 	margin-right: 20px;}
 
-	.nav {
+.nav {
         position: relative;
         background-color: #ffffff;
         width: 100%;
@@ -78,111 +73,57 @@
     	text-align:center;
         font-family: Raleway;
         text-decoration: none;}   
-    .nav ul {
-  	 	list-style-type: none;
+.nav ul {
+  	list-style-type: none;
         margin: 0;
     	padding: 0;
         overflow: hidden;
     	display: inline-block;
         text-decoration: none;}
-    .nav ul li {
+.nav ul li {
         margin: auto;
         padding: 10px;
         float:left;
         text-decoration: none;}
 .nav ul li a:link {
-		color: #233252;
+	color: #233252;
 	text-decoration: none;}
-    .nav ul li a:visited {
-		color: #233252;
+.nav ul li a:visited {
+	color: #233252;
 	text-decoration: none;}
 .nav ul li a:hover {
-  		color: #a0a0a0;
+	color: #a0a0a0;
         text-decoration: none;}
 .nav ul li a:active {
-		color: #a0a0a0;
+	color: #a0a0a0;
         text-decoration: none;}
 
-    hr.solid {
-  		border: 0.25px solid #a0a0a0;}
+hr.solid {
+  	border: 0.25px solid #a0a0a0;}
 
 a:link {
-  color: #364043;
-}
-
+  color: #364043;}
 a:visited {
-  color: #364043;
-}
-
-
+  color: #364043;}
 a:hover {
-  color: #a0a0a0;
-}
-
+  color: #a0a0a0;}
 a:active {
-  color: #a0a0a0;
-} 
+  color: #a0a0a0;} 
 
-  .rectangle {
-  height: 1px;
-  width: 300px;
-  background-color: #b4cce8;
+.rectangle {
+	height: 1px;
+	width: 300px;
+	background-color: #b4cce8;
 	margin-left: auto;
-    margin-right: auto;}
+	margin-right: auto;}
 
-
-.grid-container {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-gap: 0px;
-  padding: 10px;
-max-width: 700px;}
-
-.grid-container > div {
-  text-align: center;
-  padding: 0px 20px;}
-
-@media only screen and (max-width: 600px) {
-    thead th:not(:first-child) {
-        display: none;}
-
-    td, th {
-        display: block;}
-
-    td[data-th]:before  {
-        content: attr(data-th);}
-}
-
-.column {
-  float: left;
-  padding: 5px;}
-
-
-.column.side {
-  width: 10%;}
-
-
-.column.middle {
-  width: 80%;}
-
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;}
-
-@media screen and (max-width: 600px) {
-  .column.side, .column.middle {
-    width: 100%;}}
-    
-    footer {
-  		text-align:center;
-        	color: #a0a0a0;
-  		padding: 20px;}
+footer {
+  	text-align:center;
+        color: #a0a0a0;
+  	padding: 20px;}
 
 .centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
+	position: absolute;
+	top: 50%;
+ 	left: 50%;
+	transform: translate(-50%, -50%);}
