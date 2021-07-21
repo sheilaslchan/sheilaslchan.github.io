@@ -125,12 +125,9 @@ a:active {
 	margin-left: auto;
     margin-right: auto;}
 
-.grid {
-  display: grid;
-  align-items: center;}
 
 .grid-container {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 0px;
   padding: 10px;
