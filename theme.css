@@ -9,7 +9,11 @@
  	 width: 90%;
  	 text-align: justify;}
 
-	
+.container_cover {
+  position: relative;
+  text-align: center;
+}	
+
 	.header {
 	  background-color: white;
 	  padding: 20px;
