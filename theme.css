@@ -130,21 +130,15 @@ a:active {
   grid-template-columns: 50% 50%;
   grid-gap: 0px;
   padding: 10px;
-max-width: 800px;}
+max-width: 700px;}
 
 .grid-container > div {
   text-align: center;
   padding: 0px 20px;}
 
 @media only screen and (max-width: 600px) {
-    thead th:not(:first-child) {
-        display: none;}
-
-    td, th {
+  grid-container {
         display: block;}
-
-    td[data-th]:before  {
-        content: attr(data-th);}
 }
 
 .column {
