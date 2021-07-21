@@ -7,12 +7,7 @@
  	 margin: auto;
  	 max-width: 600px;
  	 width: 90%;
- 	 text-align: justify;}
-
-.container_cover {
-  position: relative;
-  text-align: center;
-}	
+ 	 text-align: justify;}	
 
 	.header {
 	  background-color: white;
@@ -181,8 +176,14 @@ max-width: 700px;}
   		padding: 20px;}
 
 .centered {
-  position: relative;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 600px) {
+  .float-right-sm {
+    float: right;
+  }
 }
