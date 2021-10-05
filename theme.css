@@ -127,3 +127,8 @@ footer {
 	top: 50%;
  	left: 50%;
 	transform: translate(-50%, -50%);}
+
+.media screen and (max-width: 600px) {
+  .centered a {
+    float: none;
+    width: 100%;}}
