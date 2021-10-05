@@ -130,5 +130,5 @@ footer {
 
 .media screen and (max-width: 600px) {
   .centered a {
-    float: none;
+    float: left;
     width: 100%;}}
